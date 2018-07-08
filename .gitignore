@@ -1,0 +1,7 @@
+/vendor
+/.idea
+/.vscode
+/.vagrant
+/storage/*
+!/storage/.gitkeep
+*.csv
