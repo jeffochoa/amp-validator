@@ -1,13 +1,12 @@
 {
-    "name": "laravel-zero/laravel-zero",
-    "description": "The Laravel Zero Framework.",
-    "keywords": ["framework", "laravel", "laravel zero", "console", "cli"],
-    "homepage": "https://laravel-zero.com",
+    "name": "jeffochoa/amp-validator",
+    "description": "Test your Accelerated Mobile Pages right away from your terminal.",
+    "keywords": ["framework", "laravel", "laravel zero", "console", "cli", "amp"],
     "type": "project",
     "license": "MIT",
     "support": {
-        "issues": "https://github.com/laravel-zero/laravel-zero/issues",
-        "source": "https://github.com/laravel-zero/laravel-zero"
+        "issues": "https://github.com/jeffochoa/amp-validator/issues",
+        "source": "https://github.com/jeffochoa/amp-validator"
     },
     "authors": [
         {
