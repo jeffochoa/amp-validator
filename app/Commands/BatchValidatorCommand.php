@@ -75,8 +75,8 @@ class BatchValidatorCommand extends Command
             case 2:
             $this->outputExtendedReport($rows);
         }
-        
-        $this->info(PHP_EOL.'Total <fg=black;bg=green> ' . count($rows) .' URLs processed </> - <fg=white;bg=red> (' . count($links) . ' errors found) </>');
+
+        $this->info(PHP_EOL.'Total <fg=black;bg=green> ' . count($links) .' URLs processed </> - <fg=white;bg=red> (' . count($rows) . ' errors found) </>');
     }
 
     protected function askForOutputFormat()
@@ -95,9 +95,9 @@ class BatchValidatorCommand extends Command
     protected function runLinksValidation(array $links) : array
     {
         $bar = $this->output->createProgressBar(count($links));
-        
+
         $this->info('Running AMP validation');
-        
+
         $rows = [];
 
         foreach ($links as $link) {

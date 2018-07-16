@@ -15,13 +15,13 @@
         }
     ],
     "require": {
-        "php": "^7.1.3",
+        "php": "^7.1.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.1",
         "kitetail/zttp": "dev-master",
         "laravel-zero/framework": "5.6.*",
         "league/csv": "^9.0"
-    },
-    "require-dev": {
-        "phpunit/phpunit": "^7.1"
     },
     "autoload": {
         "psr-4": {
@@ -48,5 +48,8 @@
     },
     "minimum-stability": "dev",
     "prefer-stable": true,
-    "bin": ["amp"]
+    "bin": [
+        "amp-validator",
+        "builds/amp"
+    ]
 }
