@@ -33,12 +33,6 @@ Finally you can use the validation tool from the package root folder
 
   validate       Test a single AMP url.
   validate-batch Validate a batch of AMP pages from a CSV file.
-
-  app:build      Compile your application into a single file
-  app:install    Installs a new component
-  app:rename     Change the application name
-
-  make:command   Create a new command
 ```
 
 ## Global install (Composer)
