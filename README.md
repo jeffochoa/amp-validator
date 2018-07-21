@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="https://raw.githubusercontent.com/jeffochoa/amp-validator/master/docs/example.png" alt="Larastan Example" height="300">
+    <img src="https://raw.githubusercontent.com/jeffochoa/amp-validator/master/docs/example.png" alt="AMP validation Example" height="300">
 </p>
 
 <p align="center">
