@@ -1,4 +1,17 @@
-# AMP validation CLI tool
+<p align="center">
+    <img src="https://raw.githubusercontent.com/jeffochoa/amp-validator/master/docs/example.png" alt="Larastan Example" height="300">
+</p>
+
+<p align="center">
+  <a href="https://travis-ci.org/jeffochoa/amp-validator"><img src="https://img.shields.io/travis/jeffochoa/amp-validator/master.svg" alt="Build Status"></img></a>
+  <a href="https://packagist.org/packages/jeffochoa/amp-validator"><img src="https://poser.pugx.org/jeffochoa/amp-validator/d/total.svg" alt="Total Downloads"></a>
+  <a href="https://packagist.org/packages/jeffochoa/amp-validator"><img src="https://poser.pugx.org/jeffochoa/amp-validator/v/stable.svg" alt="Latest Version"></a>
+  <a href="https://packagist.org/packages/jeffochoa/amp-validator"><img src="https://poser.pugx.org/jeffochoa/amp-validator/license.svg" alt="License"></a>
+</p>
+
+------
+
+## About AMP validation CLI tool
 
 Test your Accelerated Mobile Pages right away from your terminal.
 
@@ -6,81 +19,46 @@ Test your Accelerated Mobile Pages right away from your terminal.
 
 This package uses CLOUDFARE's [AMP validator API](https://blog.cloudflare.com/amp-validator-api/).
 
-## Install
+## Installation
 
-### Download or clone (Local development)
-
-You can download the package locally:
-
-```bash
-git clone git@github.com:jeffochoa/amp-validator.git
-```
-
-Then install all the dependencies using composer:
-
-```bash
-composer install
-```
-
-Finally you can use the validation tool from the package root folder
-
-```bash
-  php amp
-
-  Amp-tester  unreleased
-
-  USAGE: amp <command> [options] [arguments]
-
-  validate       Test a single AMP url.
-  validate-batch Validate a batch of AMP pages from a CSV file.
-```
-
-## Global install (Composer)
-
-You can also install this CLI tool globally using composer.
+### Via Composer
 
 ```bash
 composer global require jeffochoa/amp-validator
 ```
 
-Make sure you have the global Composer binaries directory in your PATH. This directory may change depending on the platform you are.
+### Manually
 
-On ubuntu:
-
-```bash
-export PATH="$PATH:$HOME/.composer/vendor/bin"
-```
-
-## Install using binary file
-
-First, you'll need to download the binary file
+First, download the binary using `wget`:
 
 ```bash
-wget https://github.com/jeffochoa/amp-validator/blob/master/builds/amp.phar -O amp
+wget https://github.com/jeffochoa/amp-validator/blob/master/builds/amp-validator -O amp-validator
 ```
 
-Change file permissions
+Change binary permissions:
 
 ```bash
-sudo chmod ax amp
+sudo chmod ax amp-validator
 ```
 
-Move to bin directory
+Move to bin directory:
 
 ```bash
-sudo mv amp /usr/local/bin/amp
+sudo mv amp-validator /usr/local/bin/amp-validator
 ```
-
----
 
 ## Usage
+
+```bash
+amq-validator
+```
 
 ### Singe page validation
 
 The given URL should be publicly accessible.
 
 ```bash
-php amp validate http://website.test/valid-amp-link
+amp-validator validate http://website.test/valid-amp-link
 ```
 
 ### Validate a batch of links
@@ -96,7 +74,7 @@ Download the AMP report in `Search Appearance / Accelerate mobile pages`
 Once you have the file downloaded locally:
 
 ```bash
-php amp validate-batch path-to-file/downloaded.csv
+amp-validator validate-batch path-to-file/downloaded.csv
 ```
 
 This tool will read the CSV file generated on GWT to run the validation on each tests contained in the file, then you can select between the different types of output formats to export your report.
@@ -132,3 +110,7 @@ The following example is the output generated using the "In console (extended)" 
 If you click on the `preview` link, you'll be taken to the online google validation tool.
 
 ![AMP online validation tool](https://raw.githubusercontent.com/jeffochoa/amp-validator/master/docs/test-online.jpg)
+
+## License
+
+AMQ Validator is an open-sourced software licensed under the [MIT license](LICENSE.md).
