@@ -49,7 +49,6 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "bin": [
-        "amp-validator",
-        "builds/amp"
+        "builds/amp-validator"
     ]
 }
