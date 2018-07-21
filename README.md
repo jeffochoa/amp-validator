@@ -3,7 +3,6 @@
 </p>
 
 <p align="center">
-  <a href="https://travis-ci.org/jeffochoa/amp-validator"><img src="https://img.shields.io/travis/jeffochoa/amp-validator/master.svg" alt="Build Status"></img></a>
   <a href="https://packagist.org/packages/jeffochoa/amp-validator"><img src="https://poser.pugx.org/jeffochoa/amp-validator/d/total.svg" alt="Total Downloads"></a>
   <a href="https://packagist.org/packages/jeffochoa/amp-validator"><img src="https://poser.pugx.org/jeffochoa/amp-validator/v/stable.svg" alt="Latest Version"></a>
   <a href="https://packagist.org/packages/jeffochoa/amp-validator"><img src="https://poser.pugx.org/jeffochoa/amp-validator/license.svg" alt="License"></a>
