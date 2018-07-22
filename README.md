@@ -49,7 +49,7 @@ sudo mv amp-validator /usr/local/bin/amp-validator
 ## Usage
 
 ```bash
-amq-validator
+amp-validator
 ```
 
 ### Singe page validation
@@ -112,4 +112,4 @@ If you click on the `preview` link, you'll be taken to the online google validat
 
 ## License
 
-AMQ Validator is an open-sourced software licensed under the [MIT license](LICENSE.md).
+AMP Validator is an open-sourced software licensed under the [MIT license](LICENSE.md).
