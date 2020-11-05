@@ -16,7 +16,7 @@ Test your Accelerated Mobile Pages right away from your terminal.
 
 [![AMP online validation tool](https://raw.githubusercontent.com/jeffochoa/amp-validator/master/docs/validation-video.jpg)](https://www.ampproject.org/docs/fundamentals/validate)
 
-This package uses CLOUDFARE's [AMP validator API](https://blog.cloudflare.com/amp-validator-api/).
+This package uses CLOUDFLARE's [AMP validator API](https://blog.cloudflare.com/amp-validator-api/).
 
 ## Installation
 
